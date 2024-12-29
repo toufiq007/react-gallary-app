@@ -5,7 +5,7 @@ import PhoneImage from "../assets/phone.jpg"
 const Gallary = () => {
   const [persons, setPersons] = useState(people);
   return (
-    <div className="grid grid-cols-5 gap-5 mt-10">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-5 mt-10">
       {persons.map((person) => (
         <div
           key={person.id}
