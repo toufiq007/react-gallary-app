@@ -11,7 +11,7 @@ const Gallary = () => {
           key={person.id}
           className="border border-blue-200 w-[300px] h-[300px]"
         >
-         <img src={PhoneImage} alt={person.imgName} style={{width:"100%",height:"100%",objectFit:"cover"}} />
+         <img draggable src={PhoneImage} alt={person.imgName} style={{width:"100%",height:"100%",objectFit:"cover"}} />
         </div>
       ))}
     </div>
